@@ -1,11 +1,15 @@
 
 
 body {
-  background-color: rgb(29, 29, 29);
+  height: 100%;
+  background-image: url(./background/pexels-constantin-1008180.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 .App {
-  background-color: rgb(29, 29, 29);
-  height: 100vh;
+  height: fit-content;
   
 }
 
@@ -15,12 +19,12 @@ body {
   align-items: center;
 
   background-color: white;
-  box-shadow: 0 5px 5px black;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.356);
 }
 
 .leftSideHeader{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -30,7 +34,7 @@ body {
 
 .Nav {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -49,7 +53,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.74);
   border-radius: 20px;
   box-shadow: 0px 0 5px black;
   margin: 20px;
@@ -70,18 +74,24 @@ section {
 }
 
 article {
-  margin-bottom: 10px;
   width: 40vh;
 }
 
 h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
   display: inline;
-  margin: 20px;
-  margin-left: 5px;
+  margin: 5px 0;
+  margin-right: 10px;
+
+  color: rgb(114, 114, 114);
 }
 
 h2 {
   margin-top: 0;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .placePhoto {
@@ -92,6 +102,28 @@ h2 {
   box-shadow: -5px 0 5px rgb(151, 151, 151);
 }
 
+.material-symbols-outlined {
+  color: rgb(49, 194, 219);
+  font-size: 15px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 800,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.link {
+  font-size: small;
+  color: gray;
+}
+
+.date {
+  margin-bottom: 0;
+}
+
+.description {
+  margin-top: 5px;
+}
 /* 
 Here is where the object-fit property comes in. The object-fit property can take one of the following values:
 
@@ -103,6 +135,10 @@ scale-down - the image is scaled down to the smallest version of none or contain
 */
 
 @media only screen and (max-width: 420px) {
+  body {
+    background-position: bottom;
+  }
+  
   .Place {
     flex-direction: column;
 
@@ -111,6 +147,10 @@ scale-down - the image is scaled down to the smallest version of none or contain
 
   section {
     margin: 20px 0px;  
+  }
+
+  .secondSection {
+    padding-top: 5px;
   }
 
   .placePhoto {
