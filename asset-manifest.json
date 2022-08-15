@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/project-5-react-freecodecamp/static/css/main.411d8c45.css",
+    "main.js": "/project-5-react-freecodecamp/static/js/main.b23cc7e1.js",
+    "static/media/cop-port.jpg": "/project-5-react-freecodecamp/static/media/cop-port.ccf194f57a607f87dd6a.jpg",
+    "static/media/vienna-street.jpg": "/project-5-react-freecodecamp/static/media/vienna-street.66cfd7a4674273a5f40c.jpg",
+    "static/media/prague-night.jpg": "/project-5-react-freecodecamp/static/media/prague-night.386a2960ffcb0c68c681.jpg",
+    "static/media/sarajevo-street.jpg": "/project-5-react-freecodecamp/static/media/sarajevo-street.473cbb7a418c2d9630e2.jpg",
+    "static/media/aust-alpe.jpg": "/project-5-react-freecodecamp/static/media/aust-alpe.b2d82cf34aebe64ef22b.jpg",
+    "static/media/pexels-mateusz-sałaciak-4275887.jpg": "/project-5-react-freecodecamp/static/media/pexels-mateusz-sałaciak-4275887.ea36dd12425e66b302fe.jpg",
+    "static/media/prague-street.jpg": "/project-5-react-freecodecamp/static/media/prague-street.ee5db3d84fdd50597b86.jpg",
+    "static/media/pexels-sam-willis-1154619.jpg": "/project-5-react-freecodecamp/static/media/pexels-sam-willis-1154619.87e5522861c852a5a966.jpg",
+    "static/media/milano.jpg": "/project-5-react-freecodecamp/static/media/milano.be364bb8bcb1a487d3e4.jpg",
+    "static/media/krakow-square.jpg": "/project-5-react-freecodecamp/static/media/krakow-square.f39413fe3b6f7f2c04b7.jpg",
+    "static/media/pexels-riccardo-789380.jpg": "/project-5-react-freecodecamp/static/media/pexels-riccardo-789380.9c99c12bd66b20934fb3.jpg",
+    "static/media/pexels-constantin-1008180.jpg": "/project-5-react-freecodecamp/static/media/pexels-constantin-1008180.385da3d4a6c7d6e3ae46.jpg",
+    "static/media/pexels-nice-guys-910396.jpg": "/project-5-react-freecodecamp/static/media/pexels-nice-guys-910396.1373669ee406f4c05cf4.jpg",
+    "static/media/pexels-sheila-731217.jpg": "/project-5-react-freecodecamp/static/media/pexels-sheila-731217.c5408bc47b09848ec475.jpg",
+    "static/media/pexels-chevanon-photography-333525.jpg": "/project-5-react-freecodecamp/static/media/pexels-chevanon-photography-333525.ce2a3300dc47ed3e19d5.jpg",
+    "static/media/Gratz_-_La_strana_cosa_-_panoramio.jpg": "/project-5-react-freecodecamp/static/media/Gratz_-_La_strana_cosa_-_panoramio.f335bbd6d97c71e145d5.jpg",
+    "static/media/Les-2-Alpes-france.jpg": "/project-5-react-freecodecamp/static/media/Les-2-Alpes-france.91b8c1b64bb5c504dede.jpg",
+    "static/media/logo.svg": "/project-5-react-freecodecamp/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/project-5-react-freecodecamp/index.html",
+    "main.411d8c45.css.map": "/project-5-react-freecodecamp/static/css/main.411d8c45.css.map",
+    "main.b23cc7e1.js.map": "/project-5-react-freecodecamp/static/js/main.b23cc7e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.411d8c45.css",
+    "static/js/main.b23cc7e1.js"
+  ]
+}
