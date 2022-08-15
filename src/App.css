@@ -1,0 +1,122 @@
+
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+.App {
+  background-color: rgb(29, 29, 29);
+  height: 100vh;
+  
+}
+
+.HeaderSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: 0 5px 5px black;
+}
+
+.leftSideHeader{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+.Nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.MainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  padding-bottom: 30px;
+  
+}
+
+.Place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0px 0 5px black;
+  margin: 20px;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+
+.secondSection {
+  padding: 30px;
+  
+}
+
+article {
+  margin-bottom: 10px;
+  width: 40vh;
+}
+
+h3 {
+  display: inline;
+  margin: 20px;
+  margin-left: 5px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.placePhoto {
+  height: 30vh;
+  width: 22vh;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: -5px 0 5px rgb(151, 151, 151);
+}
+
+/* 
+Here is where the object-fit property comes in. The object-fit property can take one of the following values:
+
+fill - This is default. The image is resized to fill the given dimension. If necessary, the image will be stretched or squished to fit
+contain - The image keeps its aspect ratio, but is resized to fit within the given dimension
+cover - The image keeps its aspect ratio and fills the given dimension. The image will be clipped to fit
+none - The image is not resized
+scale-down - the image is scaled down to the smallest version of none or contain 
+*/
+
+@media only screen and (max-width: 420px) {
+  .Place {
+    flex-direction: column;
+
+    border-radius: 0;
+  }
+
+  section {
+    margin: 20px 0px;  
+  }
+
+  .placePhoto {
+    height: 25vh;
+    width: 40vh;
+    object-fit: cover;
+  }
+
+}
